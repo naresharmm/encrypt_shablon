@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+string  str1 = "dhoreawWH", str2 = "pghbtyx132ds";
+    string str = "Hello World";
+    for (int i = 0; i < str.length(); i++)
+    {
+        bool f = false;
+        for (int j = 0; j < str1.length(); j++)
+        {
+            if (str[i] == str1[j])
+            {
+                cout << str2[j];
+                f = true;
+            }
+        }
+        if (f == false) cout << str[i];
+    }
