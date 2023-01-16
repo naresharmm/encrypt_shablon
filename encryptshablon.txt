@@ -1,4 +1,4 @@
-
+Տվյալ խնդրի լուծումը կայանում է գաղտնագրում տողեր/սյուներ մեթոդով։
 #include <iostream>
 using namespace std;
 string  str1 = "dhoreawWH", str2 = "pghbtyx132ds";
